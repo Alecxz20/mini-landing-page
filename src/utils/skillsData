@@ -1,0 +1,27 @@
+import { DiCss3, DiJavascript, DiHtml5 } from 'react-icons/di'
+
+const skillsData = [
+  {
+    Image: DiHtml5,
+    title: 'HTML + Figma',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aliquam, quae in dolores enim numquam.',
+    color: '#E5522E',
+  },
+  {
+    Image: DiCss3,
+    title: 'CSS + Tailwind',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aliquam, quae in dolores enim numquam.',
+    color: '#2D52E4',
+  },
+  {
+    Image: DiJavascript,
+    title: 'JavaScript + React',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aliquam, quae in dolores enim numquam.',
+    color: '#F6E02B',
+  },
+]
+
+export default skillsData
